@@ -9,13 +9,18 @@
         <p>I'm hosted with GitHub Pages.</p><br><br>
       <h2>Let's try some simple math, shall we?</h2><br>
         <form name = "CubeTime">
-          Find the cube: <br>
-          <input type="text" size="10" name="number"><br>
-          <input type="text" size="10" name="cube">
-          <input type="button" value="Calculate!" onclick="CalcCube(6)">
+          Calculate the cube of:
+          <input type="text" size="10" name="number" /><br>
+          Cubed: <input type="text" size="10" name="cube" />
+          <input type="button" value="Calculate!" onclick="CalcCube()" />
         </form>
+        <p> The result is: <br>
+        <span id = "result"></span>
+      </p>
         <script language="JavaScript" type="text/javascript">
-          function CalcCube(num) {
+          function CalcCube() {
+            num = document.getElementById("number");
+            document.getElementByID("result").innerHTML = num;
             return num*num*num;
           }
         </script>
