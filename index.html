@@ -14,14 +14,13 @@
           Cubed: <input type="text" size="10" name="cube" />
           <input type="button" value="Calculate!" onclick="CalcCube()" />
         </form>
-        <p> The result is: <br>
+        <h3> The result is: <br>
         <span id = "result"></span>
-      </p>
+      </h3>
         <script language="JavaScript" type="text/javascript">
           function CalcCube() {
             num = document.getElementById("number");
-            document.getElementByID("result").innerHTML = num;
-            return num*num*num;
+            document.getElementByID("result").innerHTML = num * num * num;
           }
         </script>
       </body>
