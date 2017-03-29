@@ -11,7 +11,6 @@
         <form name = "CubeTime">
           Calculate the cube of:
           <input type="text" size="10" name="number" /><br>
-          Cubed: <input type="text" size="10" name="cube" />
           <input type="button" value="Calculate!" onclick="CalcCube()" />
         </form>
         <h3> The result is: <br>
@@ -19,7 +18,7 @@
       </h3>
         <script language="JavaScript" type="text/javascript">
           function CalcCube() {
-            num = document.getElementById("number");
+            num = document.getElementByID("number");
             document.getElementByID("result").innerHTML = num * num * num;
           }
         </script>
