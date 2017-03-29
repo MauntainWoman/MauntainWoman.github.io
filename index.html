@@ -4,14 +4,20 @@
     <link type="text/css" rel="stylesheet" href="stylesheet.css"/>
   </head>
   <body>
-      <script src="script.js"</script>
+      <!---<script src="script.js"</script>!--->
       <h1>Hello World, it's me, Margaret.</h>
         <p>I'm hosted with GitHub Pages.</p><br><br>
       <h2>Let's try some simple math, shall we?</h2>
-        <form>
-          Find the cube of:
-          <input type="number"><br><br>
-          <input type="submit" value="Try it!" onclick="cube(number)">
+        <form name = "CubeTime">
+          Find the cube:
+          <input type="text" size="10" name="number">
+          <input type="text" size="10" name="cube">
+          <input type="button" value="Calculate!" onclick="document.CubeTime.cube.value = CalcCube(document.CubeTime.number.value)">
         </form>
+        <script>
+          function CalcCube(num) {
+            return num*num*num;
+          }
+        </script>
       </body>
 </html>
