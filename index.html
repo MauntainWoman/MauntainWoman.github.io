@@ -8,20 +8,30 @@
       <h1>Hello World, it's me, Margaret.</h>
         <p>I'm hosted with GitHub Pages.</p><br><br>
       <h2>Let's try some simple math, shall we?</h2><br>
-        <form>
-          Calculate the cube of:
-          <input type="text" size="10" id="number" /><br>
-          <input type="button" value="Calculate!" onclick="CalcCube()" />
-        </form>
-        <h3> The result is: <br>
-        <span id = "result"></span>
-      </h3>
+      <form>
+      1st Number : <input type="text" id="firstNumber" /><br>
+      2nd Number: <input type="text" id="secondNumber" /><br>
+      <input type="button" onClick="multiplyBy()" Value="Multiply" />
+      <input type="button" onClick="divideBy()" Value="Divide" />
+      </form>
+      <p>The Result is : <br>
+      <span id = "result"></span>
+      </p>
       </body>
 </html>
 
 <script language="JavaScript" type="text/javascript">
-  function CalcCube() {
-    num = document.getElementByID("number");
-    document.getElementByID("result").innerHTML = num * num * num;
-  }
+function multiplyBy()
+{
+        num1 = document.getElementById("firstNumber").value;
+        num2 = document.getElementById("secondNumber").value;
+        document.getElementById("result").innerHTML = num1 * num2;
+}
+
+function divideBy()
+{
+        num1 = document.getElementById("firstNumber").value;
+        num2 = document.getElementById("secondNumber").value;
+document.getElementById("result").innerHTML = num1 / num2;
+}  
 </script>
