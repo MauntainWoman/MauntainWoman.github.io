@@ -1,3 +1,3 @@
-function cube(number) {
-  return number * number * number;
-}
+//function cube(number) {
+//  return number * number * number;
+//}
