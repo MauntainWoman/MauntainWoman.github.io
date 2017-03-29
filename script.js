@@ -1,2 +1,3 @@
-var name = 'Maggie Mau';
-return name
+function cube(number) {
+  return number * number * number;
+}
