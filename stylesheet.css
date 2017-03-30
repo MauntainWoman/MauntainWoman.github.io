@@ -12,6 +12,10 @@ h2 {
   font-size: 15px;
 }
 
+p {
+  font-size: 10px;
+}
+
 input[type="text"]
 {
     font-size:10px;
