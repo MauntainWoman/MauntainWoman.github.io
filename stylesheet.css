@@ -11,14 +11,17 @@ head {
 h1 {
   font-size: 20px;
   text-align: center;
+  font-family: 'Tangerine',sans-serif;
 }
 
 h2 {
   font-size: 16px;
+  font-family: 'Tangerine',sans-serif;
 }
 
 p {
   font-size: 10px;
+  font-family: 'Tangerine',sans-serif;
 }
 
 input[type=text]
