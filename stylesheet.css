@@ -10,7 +10,6 @@ head {
 
 h1 {
   font-size: 20px;
-  text-align: center;
   font-family: 'Tangerine',sans-serif;
 }
 
@@ -26,7 +25,7 @@ p {
 
 input[type=text]
 {
-    font-size:16px;
+    font-size: 16px;
     font-family: 'Tangerine',sans-serif;
 }
 
@@ -42,4 +41,9 @@ input[type=button]
     font-size: 16px;
     font-family: 'Tangerine',sans-serif;
     border-radius: 5px;
+}
+
+a {
+  font-size: 14px;
+  color: grey;
 }
