@@ -23,26 +23,6 @@ p {
   font-family: 'Tangerine',sans-serif;
 }
 
-input[type=text]
-{
-    font-size: 16px;
-    font-family: 'Tangerine',sans-serif;
-}
-
-input[type=button]
-{
-    background-color: #6770FE;
-    border: none;
-    color: white;
-    padding: 5px 5px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    font-family: 'Tangerine',sans-serif;
-    border-radius: 5px;
-}
-
 a {
   font-size: 14px;
   color: white;
@@ -51,7 +31,14 @@ a {
 .projects {
   width: 100px;
   height: 100px;
-  background: gray;
-  float: left;
-  margin: 5px;
+  background: #BFC9CA;
+  border: none;
+  color: white;
+  padding: 5px 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-family: 'Tangerine',sans-serif;
+  border-radius: 5px;
 }
