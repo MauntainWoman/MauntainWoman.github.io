@@ -6,11 +6,14 @@
     <script src="script.js"></script> <!-- Load Javascript File -->
   </head>
   <body>
-      <!-- Header section -->
-      <h1>Hello World, it's me, Margaret.</h1>
-      <p>I'm hosted with GitHub Pages.</p>
-      <img src="cat-hungry-icon.png" style="width:100px;height:100px;"><br><br>
       <!-- Math with a form -->
-      <a href="page2">Page2</a>
+      <h2>Let's try some simple math, shall we?</h2><br>
+      <form>
+        Number : <input type="text" id="firstNumber" />
+        <input type="button" onClick="cubed()" Value="Cube It" />
+      </form>
+      <h2>The Result is :
+        <span id = "result"</span>
+      </h2>
   </body>
 </html>
