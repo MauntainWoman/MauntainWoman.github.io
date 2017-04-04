@@ -22,7 +22,7 @@ input[type=text]
 input[type=numberButton]
 {
     background-color: #BFC9CA;
-    border: black;
+    border-style: none;
     color: black;
     padding: 5px 5px;
     text-align: center;
@@ -31,14 +31,14 @@ input[type=numberButton]
     display: inline-block;
     font-size: 16px;
     font-family: 'Tangerine',sans-serif;
-    width: 20px;
-    height: 20px;
+    width: 33.33%;
+    height: 25%;
 }
 
 input[type=functionButton]
 {
     background-color: #6699ff;
-    border: black;
+    border-style: none;
     color: black;
     padding: 5px 5px;
     text-align: center;
@@ -47,16 +47,16 @@ input[type=functionButton]
     display: inline-block;
     font-size: 16px;
     font-family: 'Tangerine',sans-serif;
-    width: 20px;
-    height: 20px;
+    width: 50%;
+    height: 25%;
 }
 
 table {
-  border: 1px solid black;
+  border-style: none;
 }
 
 table td {
-  border: 1px solid black;
+  border-style: none;
 }
 
 table.no-spacing {
