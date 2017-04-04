@@ -46,3 +46,14 @@ a {
   font-family: 'Tangerine',sans-serif;
   border-radius: 5px;
 }
+
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: white;
+  text-align: center;
+  text-decoration:none;
+}
