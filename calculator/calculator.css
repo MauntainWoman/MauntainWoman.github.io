@@ -19,7 +19,7 @@ input[type=text]
     font-family: 'Tangerine',sans-serif;
 }
 
-input[type=numberButton]
+.numberButton
 {
     background-color: #BFC9CA;
     border-style: none;
@@ -35,7 +35,7 @@ input[type=numberButton]
     height: 20px;
 }
 
-input[type=functionButton]
+.functionButton
 {
     background-color: #6699ff;
     border-style: none;
