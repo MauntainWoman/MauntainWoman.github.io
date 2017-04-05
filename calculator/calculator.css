@@ -19,25 +19,9 @@ input[type=text]
     font-family: 'Tangerine',sans-serif;
 }
 
-.numberButton
+input[type=button]
 {
     background-color: #BFC9CA;
-    border-style: none;
-    color: black;
-    padding: 5px 5px;
-    text-align: center;
-    text-decoration: none;
-    vertical-align:middle;
-    display: inline-block;
-    font-size: 16px;
-    font-family: 'Tangerine',sans-serif;
-    width: 20px;
-    height: 20px;
-}
-
-.functionButton
-{
-    background-color: #6699ff;
     border-style: none;
     color: black;
     padding: 5px 5px;
