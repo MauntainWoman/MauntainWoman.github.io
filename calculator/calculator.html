@@ -15,12 +15,12 @@
   </head>
   <body>
       <!-- Calculator -->
-      <h2>Dude look at this Sick Calculator!</h2><br>
+      <h3>Dude look at this Sick Calculator!</h3><br>
       <form name="Calculator">
-          <table class="no-spacing" cellspacing="0">
+          <table>
             <tr>
               <td colspan="2" align="center">Sick Calculator<br>
-                <input type="text" maxlength="40" size="22" name="Display">
+                <input type="text" name="Display">
               </td>
             </tr>
             <tr>
@@ -43,7 +43,7 @@
                   </tr>
                   <tr>
                     <td><input type="button" value="+/-" OnClick="PlusMinus()"</td>
-                    <td><input type="button" value="0" OnClick="AddDigit()"</td>
+                    <td><input type="button" value="0" OnClick="AddDigit('0')"</td>
                     <td><input type="button" value="." OnClick="AddDot()"</td>
                   </tr>
                 </table>
@@ -75,13 +75,5 @@
 <br>
 <br>
 <br>
-
-      <!--<form>
-        Number : <input type="text" id="firstNumber" />
-        <input type="button" onClick="cubed()" Value="Cube It" />
-      </form>
-      <h2>The Result is :
-        <span id = "result"</span>
-      </h2> !-->
   </body>
 </html>

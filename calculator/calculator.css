@@ -9,7 +9,7 @@ input[type=button]
 {
     background-color: #BFC9CA;
     border-color: #5f6465;
-    border-style: none;
+    border-style: solid;
     color: black;
     padding: 5px 5px;
     text-align: center;
@@ -22,11 +22,12 @@ input[type=button]
 }
 
 table {
-  border-style: none;
+  border-style: solid;
   border-collapse: collapse;
 }
 
 table td {
+  border-style: solid;
   border-color: #5f6465;
   border-collapse: collapse;
 }
