@@ -1,0 +1,13 @@
+btn {
+    background-color: #88d58f;
+    border-style: solid;
+    border-color: #BFC9CA;
+    border-width: thin;
+    color: black;
+    padding: 5px 5px;
+    text-align: center;
+    text-decoration: none;
+    vertical-align:middle;
+    display: inline-block;
+    font-size: 16px;
+}

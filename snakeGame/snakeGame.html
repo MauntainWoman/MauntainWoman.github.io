@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link type="text/css" rel="stylesheet" href="snakeGame.css"/> <!-- Load Style Sheet -->
-    <!-- <script src="secondProject.js"></script> Load Javascript File -->
+    <script src="snakeGame.js"></script>
+    <script src="app.js"></script>
     <link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon" />
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -12,10 +12,20 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link type="text/css" rel="stylesheet" href="snakeGame.css"/> <!-- Load Style Sheet -->
   </head>
   <body>
       <!-- Page -->
-      <h2>Snake Game</h2><br>
+      <h3>Snake Game</h3><br>
       <img src="../images/Snake-icon.png">
+      <br><br>
+      <div class = 'game'>
+      <div id = 'home'>
+        <canvas id = 'mycanvas' width='350' height='350'>
+        </canvas>
+      </div>
+      <h4>Press start and eat the pizza!</h4><br>
+      <button id='btn' onclick="init()">Start</button>
+    </div>
   </body>
 </html>
