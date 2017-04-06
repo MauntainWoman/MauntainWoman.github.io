@@ -38,12 +38,11 @@ input[type=button]
 table {
   border-style: none;
   border-collapse: collapse;
-  width: 100px;
-  height: 80px;
 }
 
 table td {
   border-color: #4C5050;
+  border-collapse: collapse;
 }
 
 table.no-spacing {
