@@ -1,8 +1,4 @@
-function cubed()
-{
-  num1 = document.getElementById("firstNumber").value;
-  document.getElementById("result").innerHTML = num1 * num1 *num1;
-}
+// Simple Calculator//
 
 var Memory = "0";
 var Current = "0";

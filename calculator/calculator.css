@@ -2,14 +2,17 @@ input[type=text]
 {
     font-size: 16px;
     width: 200px;
-    border-color: #5f6465;
+    border-style: solid;
+    border-color: #BFC9CA;
+    border-width: thin;
 }
 
 input[type=button]
 {
-    background-color: #BFC9CA;
-    border-color: #5f6465;
+    background-color: #e5e9e9;
     border-style: solid;
+    border-color: #BFC9CA;
+    border-width: thin;
     color: black;
     padding: 5px 5px;
     text-align: center;
@@ -20,19 +23,23 @@ input[type=button]
     width: 40px;
     height: 40px;
 }
+/*background-color: #88d58f;*/
 
 table {
-  border-style: solid;
+  border-style: none;
   border-collapse: collapse;
 }
 
 table td {
-  border-style: solid;
-  border-color: #5f6465;
+  border-color: #4C5050;
   border-collapse: collapse;
+
 }
 
 table.no-spacing {
   border-spacing: 0;
   border-collapse: collapse;
+  border-style: solid;
+  border-color: #BFC9CA;
+  border-width: thin;
 }
