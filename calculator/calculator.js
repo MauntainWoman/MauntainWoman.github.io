@@ -81,19 +81,19 @@ function AllClear() {
 function Operate(op){
   if (op.indexOf("*") > -1) {
     Operation = 1;
-      document.Calculator.Display.value = Current + "*";
+      document.Calculator.Display.value = "*";
   }
   if (op.indexOf("/") > -1) {
     Operation = 2;
-    document.Calculator.Display.value = Current + "/";
+    document.Calculator.Display.value = "/";
   }
   if (op.indexOf("+") > -1) {
     Operation = 3;
-    document.Calculator.Display.value = Current + "+";
+    document.Calculator.Display.value = "+";
   }
   if (op.indexOf("-") > -1) {
     Operation = 4;
-    document.Calculator.Display.value = Current + "-";
+    document.Calculator.Display.value = "-";
   }
 
   Memory = Current;
