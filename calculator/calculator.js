@@ -35,12 +35,11 @@ function AddDot() {
   document.Calculator.Display.value = Current;
 }
 
-//Why isn't thi saving
 //Adding an exponent
 function DoExponent() {
   if (Current.indexOf("e") == -1) {
     Current = Current + "e0";
-    document.Calculator.Display.value = Current;
+  document.Calculator.Display.value = Current;
   };
 }
 
@@ -82,19 +81,21 @@ function AllClear() {
 function Operate(op){
   if (op.indexOf("*") > -1) {
     Operation = 1;
+    Current = Current + "*";
   }
   if (op.indexOf("/") > -1) {
     Operation = 2;
+    Current = Current + "/";
   }
   if (op.indexOf("+") > -1) {
     Operation = 3;
+    Current = Current + "+";
   }
-  if (op.indexOf("*") > -1) {
+  if (op.indexOf("-") > -1) {
     Operation = 1;
+    Current = Current + "-";
   }
-
   Memory = Current;
-  Current = "";
   document.Calculator.Display.value = Current;
 }
 
