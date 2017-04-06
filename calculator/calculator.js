@@ -35,6 +35,7 @@ function AddDot() {
   document.Calculator.Display.value = Current;
 }
 
+//Why isn't thi saving
 //Adding an exponent
 function DoExponent() {
   if (Current.indexOf("e") == -1) {
