@@ -81,22 +81,24 @@ function AllClear() {
 function Operate(op){
   if (op.indexOf("*") > -1) {
     Operation = 1;
-    Current = Current + "*";
+      document.Calculator.Display.value = Current + "*";
   }
   if (op.indexOf("/") > -1) {
     Operation = 2;
-    Current = Current + "/";
+    document.Calculator.Display.value = Current + "/";
   }
   if (op.indexOf("+") > -1) {
     Operation = 3;
-    Current = Current + "+";
+    document.Calculator.Display.value = Current + "+";
   }
   if (op.indexOf("-") > -1) {
-    Operation = 1;
-    Current = Current + "-";
+    Operation = 4;
+    document.Calculator.Display.value = Current + "-";
   }
+
   Memory = Current;
-  document.Calculator.Display.value = Current;
+  Current = "";
+
 }
 
 // Perform calculation on "="
