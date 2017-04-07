@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <script src="snakeGame.js"></script>
-    <script src="app.js"></script>
     <link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon" />
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -16,16 +14,17 @@
   </head>
   <body>
       <!-- Page -->
-      <h3>Snake Game</h3><br>
-      <img src="../images/Snake-icon.png">
-      <br><br>
+      <h3>Snake Game</h3>
+      <br>
       <div class = 'game'>
       <div id = 'home'>
-        <canvas id = 'mycanvas' width='350' height='350'>
+        <canvas id = 'mycanvas' width='350' height='350' style="border: 1px solid #BFC9CA">
         </canvas>
       </div>
-      <h4>Press start and eat the pizza!</h4><br>
-      <button id='btn' onclick="init()">Start</button>
+      <h5>Press start and eat the pizza!</h5>
+      <button id='btn'>Start</button>
     </div>
+    <script src="snakeGame.js"></script>
+    <script src="app.js"></script>
   </body>
 </html>
