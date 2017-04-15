@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link type="text/css" rel="stylesheet" href="coinFlip.css"/> <!-- Load Style Sheet -->
+  <link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+  <!-- Page -->
+  <h3>Let's flip a coin</h3><br>
+  <div>
+    <input type="button" value="Toss" OnClick="displayValue()">
+    <br><br>
+    <table>
+      <tr>
+        <td width="80"> It landed on </td>
+        <td id="value"></td>
+      </tr>
+    </table>
+    <table>
+      <br>
+      <tr>
+        <td width="80">Tails Tally:</td>
+        <td id="tallyTails" width="50"></td>
+        <td width="60">Percent:</td>
+        <td id="tailsPercent" width="50"></td>
+        </tr>
+        <tr>
+          <td>Heads Tally:</td>
+          <td id="tallyHeads"></td>
+          <td>Percent:</td>
+          <td id="headsPercent"></td>
+        </tr>
+      </table>
+    </div>
+    <script src="coinFlip.js"></script>
+  </body>
+  </html>
