@@ -6,10 +6,10 @@ var number = Math.floor(Math.random() * 100 + 1);
 
 function numberGuesser(){
   var currentGuess = document.getElementById("userInput").value;
-  if (currentGuess == ""){
+  if (currentGuess == ""){ // if the user doesn't enter a number
     document.getElementById("highOrLow").innerHTML = "You actually have to  guess a number, dummy";
     currentGuess = previousGuess;
-  } else if (currentGuess < 0 || currentGuess > 100){
+  } else if (currentGuess < 0 || currentGuess > 100){ // if the user enters a number outside of the range
     document.getElementById("highOrLow").innerHTML = "Enter a number between 0 and 100";
     currentGuess = previousGuess;
   } else if (currentGuess == number) { // If the numbers match
